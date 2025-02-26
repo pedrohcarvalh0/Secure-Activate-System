@@ -24,7 +24,7 @@ Este projeto utiliza o **RP2040** e a **placa BitDogLab** para garantir a ativa�
 
 1. **Clone o repositório** ou copie os arquivos para o seu ambiente de desenvolvimento.
 2. **Compile o código** utilizando o SDK do RP2040.
-3. **Faça o upload do firmware** Através da extensão do Raspberry Pi Pico Project no VS Code, é possível enviar o código para a placa clicando em "Run Project (USB)". Caso não consiga enviar diretamente, copie o arquivo `.uf2` gerado para a unidade montada.
+3. **Faça o upload do firmware** através da extensão do Raspberry Pi Pico Project no VS Code clicando em "Run Project (USB)". Caso não consiga enviar diretamente, copie o arquivo `.uf2` gerado para a unidade montada.
 4. **Conecte-se via terminal serial** (exemplo: PuTTY) com os seguintes parâmetros:
    - Baud rate: `115200`
    - Dados: `8 bits`
