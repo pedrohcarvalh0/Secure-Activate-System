@@ -24,7 +24,7 @@ Este projeto utiliza o **RP2040** e a **placa BitDogLab** para garantir a ativa�
 
 1. **Clone o repositório** ou copie os arquivos para o seu ambiente de desenvolvimento.
 2. **Compile o código** utilizando o SDK do RP2040.
-3. **Faça o upload do firmware** para a placa BitDogLab.
+3. **Faça o upload do firmware** Através da extensão do Raspberry Pi Pico Project no VS Code, é possível enviar o código para a placa clicando em "Run Project (USB)". Caso não consiga enviar diretamente, copie o arquivo `.uf2` gerado para a unidade montada.
 4. **Conecte-se via terminal serial** (exemplo: PuTTY) com os seguintes parâmetros:
    - Baud rate: `115200`
    - Dados: `8 bits`
@@ -37,3 +37,32 @@ Este projeto utiliza o **RP2040** e a **placa BitDogLab** para garantir a ativa�
    - `Modo Administrador`
 7. **Siga os procedimentos obrigatórios** para ativar a máquina com segurança.
 
+## 🎥 Explicação e Demonstração
+
+```plaintext
+https://youtu.be/BddUtNmjBbU
+```
+
+---
+
+
+## 🚀 Compilação e Upload
+
+```plaintext
+1. Clone o repositório do código:
+   git clone <URL_DO_REPOSITORIO>
+
+2. Compile o programa usando CMake:
+   mkdir build
+   cd build
+   cmake ..
+   make
+
+   Também é possível compilar diretamente na  extensão do Raspberry Pi Pico Project no VS Code clicando em "Compile Project"
+
+3. Envie o arquivo `.uf2` gerado para o Raspberry Pi Pico:
+   - Mantenha o botão `BOOTSEL` pressionado enquanto conecta o Pico ao computador.
+   - Através da extensão do Raspberry Pi Pico Project no VS Code, é possível enviar o código para a placa clicando em "Run Project (USB)".
+   - Caso não consiga enviar diretamente, copie o arquivo `.uf2` gerado para a unidade montada.
+
+```
